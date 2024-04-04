@@ -1,0 +1,176 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+  background-color: rgb(236, 252, 252)255, 255);
+
+}
+
+.content{
+  /* background-color: red; */
+  /* width: 80%; */
+  padding-left: 3rem;
+  padding-right: 3rem;
+/* position: absolute; */
+  
+  text-align: justify;
+  
+}
+.content h1{
+  font-weight: 800;
+  font-size: 3rem;
+}
+.content span{
+  background-color: yellow;
+  
+  /* opacity: 20px; */
+  text-transform: capitalize;
+  border-radius: 7px;
+  font-weight: 800;
+}
+
+.head{
+  /* background-color: yellow; */
+  padding: 5rem;
+  /* position: absolute; */
+}
+.head h1{
+  font-size: 3rem;
+  /* background-color: red; */
+}
+.head h1 span{
+  /* color: rgb(114, 195, 245); */
+  color: rgb(86, 86, 206);
+
+  
+}
+.head h2{
+ font-size: 2rem;
+}
+.head h2 span{
+ /* font-size: 5rem; */
+ color: rgb(44, 238, 202);
+}
+.head h4{
+/* padding-bottom: 2rem; */
+color: navy;
+
+}
+.head h3{
+  font-size: 2rem;
+}
+.img img{
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  /* position: absolute; */
+    width: 50%; 
+  height: 40%; 
+  float: right;
+  margin-top: 5.5rem;
+
+}
+.offer {
+  color: rgb(184, 0, 0);
+  display: flex;
+  
+  /* size: 20px; */
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  border-radius: 20px;
+  width: 10rem;
+  height:3rem;
+  background-color: rgb(220, 192, 192);
+}
+.offer button {
+  background-color: red;
+  width: 10rem;
+  height:3rem;
+  border-radius: 20px;
+  border: none;
+  text-decoration: none;
+  /* color: red; */
+}
+.offer a{
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.include span{
+  color: rgb(255, 48, 138);
+  background-color: white;
+}
+
+.offer2{
+  font-size: 3.5rem;
+  text-align: justify;
+  background-color: bisque;
+}
+.cta{
+  height: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cta button{
+  border-radius: 20px;
+  background-color: red;
+  width: 20rem;
+  height: 3.5rem;
+  border: none;
+  
+  
+}
+.cta a {
+  
+  /* list-style: none; */
+  color: yellow;
+  font-size: 2rem;
+  text-decoration:none ;
+  font-weight: 800;
+}
+ :hover.cta button {
+  /* background-color: yellow; */
+  transform: skew(10deg);
+   
+   
+}
+
+.contact {
+  display: flex;
+  /* gap: 30px; */
+  justify-content: space-around;
+  /* align-items: normal; */
+}
+
+
+
+
+
+
+
+
+
+/* ######################MEDIA QUERIES */
+
+@media screen and (max-width: 400px) {
+  .img img{
+    margin-right: 6rem;
+    padding: 0;
+  }
+  .head{
+    padding: 1rem;
+  }
+  .content{
+    padding: 1rem;
+  }
+}
+  
+
+
+ 
+
+
